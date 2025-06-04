@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://ds3xjd2nv6iwa"]
+
+[ext_resource type="Texture2D" uid="uid://btsq7w5qbfog" path="res://scenes/tile_indicator/move_indicator_tile_2.png" id="1_htxou"]
+
+[node name="TileIndicator_1" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.411765)
+z_index = -1
+position = Vector2(32, 32)
+texture = ExtResource("1_htxou")
